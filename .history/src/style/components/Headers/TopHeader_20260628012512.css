@@ -1,0 +1,98 @@
+.top-header{
+    width: 100%;
+    background-color: var(--sBackground);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 10px;
+}
+.search input{
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+}
+.search button{
+    height: 25px;
+    width: 40px;
+    transform: translateX(-40px);
+    border: 1px solid var(--background);
+    color:var(--background);
+    border-radius: 0 15px 15px 0;
+    background-color: var(--sBackground);
+    
+}
+.search button:hover{
+    font-size: 15px;
+    
+}
+
+.other-btns{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.other-btns button{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: var(--background);
+}
+@media (max-width:576px) {
+    .logo p{
+        font-size:20px;
+    }
+    .search input{
+    width: 180px;
+}
+    .other-btns{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.other-btns{
+    width: 40px;
+}
+.other-btns button{
+    font-size: 12px;
+}
+
+}
+@media (max-width:400px) {
+    .logo p{
+        font-size:18px;
+    }
+    .search input{
+    display: none;
+}
+    .search button{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: none;
+        background-color: var(--background);
+        color: var(--sBackground);
+        transform: translateX(-40px);
+    }
+    .other-btns{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.other-btns{
+    width: 40px;
+}
+.other-btns button{
+    font-size: 12px;
+}
+
+}

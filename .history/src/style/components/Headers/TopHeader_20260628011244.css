@@ -1,0 +1,29 @@
+.top-header{
+    width: 100%;
+    background-color: var(--sBackground);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 10px;
+}
+.search input{
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+}
+.search button{
+    height: 25px;
+    width: 40px;
+    transform: translateX(-40px);
+    border: 1px solid var(--background);
+    color:var()
+    border-radius: 0 15px 15px 0;
+    background-color: var(--sBackground);
+}

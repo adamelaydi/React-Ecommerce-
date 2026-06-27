@@ -1,0 +1,5 @@
+p{
+    color: var(--background);
+    background-color: var(--text);
+    height: 30px;
+}

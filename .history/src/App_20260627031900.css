@@ -1,0 +1,8 @@
+:root{
+    --background: #121212;
+    --text: whitrgb(169, 36, 36)
+}
+[data-Theme="dark"]{
+    --background: #121212;
+    --text: white;
+}

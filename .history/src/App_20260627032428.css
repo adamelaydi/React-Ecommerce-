@@ -1,0 +1,8 @@
+:root{
+    --background: #1f0c80;
+    --text:yellow
+}
+[data-Theme="dark"]{
+    --background: #1f0c80;
+    --text:yellow
+}

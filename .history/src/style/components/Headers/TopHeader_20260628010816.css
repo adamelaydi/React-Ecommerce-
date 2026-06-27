@@ -1,0 +1,18 @@
+.top-header{
+    width: 100%;
+    background-color: var(--sBackground);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 10px;
+}
+.search input{
+    width: 220px;
+    height: 30px;
+}
