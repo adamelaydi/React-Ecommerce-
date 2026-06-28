@@ -1,0 +1,41 @@
+.bottom-header{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.bottom-header .container{
+    background-color: var(--sBackground);
+    width: 700px;
+    margin-top: 5px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+.bottom-header .container .select{
+    position: relative;
+    outline: none;
+}
+.bottom-header .container .select .arrow{
+    position: absolute;
+    top: 3px;right: 3px;
+}
+.bottom-header .container .select input{
+    outline: none;
+    height: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+button {
+    width: 10px;
+}
+
+
+nav{
+    background-color: rgb(0, 255, 17);
+    text-transform: capitalize;
+}
+nav ul .link{
+    text-decoration: ;
+}

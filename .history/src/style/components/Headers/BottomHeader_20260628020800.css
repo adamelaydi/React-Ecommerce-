@@ -1,0 +1,18 @@
+.bottom-header{
+    background-color: aquamarine;
+}
+.bottom-header .container{
+    background-color: brown;
+    width: 700px;
+}
+.bottom-header .container .select{
+    position: relative;
+    outline: none;
+}
+.bottom-header .container .select .arrow{
+    position: absolute;
+    top: 3px;right: 3px;
+}
+svg{
+    width: ;
+}

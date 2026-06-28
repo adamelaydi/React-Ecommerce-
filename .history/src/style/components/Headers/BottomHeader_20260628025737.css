@@ -1,0 +1,90 @@
+.bottom-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    
+}
+.bottom-header .container{
+    background-color: var(--sBackground);
+    width: 700px;
+    margin-top: 5px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+.bottom-header .container .select{
+    position: relative;
+    outline: none;
+}
+.bottom-header .container .select .arrow{
+    position: absolute;
+    top: 3px;right: 3px;
+}
+.bottom-header .container .select input{
+    outline: none;
+    height: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+button {
+    width: 10px;
+}
+
+.bars{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul .link{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 2.5px;
+    padding: 5px;
+    color: var(--text);
+}
+nav ul .link:hover,
+nav ul .link.active{
+    background-color: rgba(240, 255, 255, 0.172);
+    border-radius: 5px;
+
+}
+nav .auth-btns{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7px 0 0;
+}
+nav .auth-btns .button,
+nav .auth-btns .button button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: var(--text);
+
+}
+@media (max-width:756px) {
+    .container{
+        position: relative;
+    }
+    button.bars{
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 20px;
+        margin-right: 15px;
+    }
+    nav{
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        background-color: ;
+
+    }
+}

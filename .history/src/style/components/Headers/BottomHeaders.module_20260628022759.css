@@ -1,0 +1,26 @@
+/* BottomHeader.module.css */
+
+.dropdown {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+.options {
+  padding: 10px;
+  background-color: var(--sBackground);
+  position: absolute;
+  width: 200px;
+  top: -120px;
+  border-radius: 10px;
+
+}
+
+.option {
+  padding: 12px 16px;
+  font-size: 15px;
+}
+
+.option:hover {
+  background-color: var(--background);
+}

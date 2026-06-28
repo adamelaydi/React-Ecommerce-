@@ -1,0 +1,22 @@
+
+    // mantine
+    import { MultiSelect } from '@mantine/core';
+    import { IconChevronDown} from "@tabler/icons-react";
+   import classes from "../../";
+
+    // styling
+    import "../../../style/components/Headers/BottomHeader.css"
+    export default function BottomHeader(){
+        return(
+            <div className="bottom-header">
+                <div className="container">
+                    <MultiSelect
+                    className='select'
+                        placeholder="Browse Categories"
+                        data={['React', 'Angular', 'Vue', 'Svelte']}
+                        rightSection={<IconChevronDown className='arrow' size={16} color="black" />}
+                    />
+                </div>
+            </div>
+        )
+    }
