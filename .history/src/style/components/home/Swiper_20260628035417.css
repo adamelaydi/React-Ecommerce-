@@ -1,0 +1,27 @@
+.swiper-sec{
+    width: 100%;
+    height: 300px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+.swiper-sec .container{
+    width: 700px;
+    height: 300px;
+    background-color: bisque;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.swiper-sec .container .img-window{
+    width: 100%;
+    height: 260px;
+    background-color: chartreuse;
+    border-radius: 15px;
+    
+}
+.swiper-sec .container .tracker{
+    height: 30px;
+}

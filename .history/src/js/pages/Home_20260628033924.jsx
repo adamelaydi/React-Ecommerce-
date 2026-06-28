@@ -12,7 +12,7 @@ export function Home(){
             <BottomHeader />
         </header>
         <main>
-            <Swiper />
+            
         </main>
         </>
     )

@@ -11,9 +11,6 @@ export function Home(){
             <TopHeader />
             <BottomHeader />
         </header>
-        <main>
-            <Swiper />
-        </main>
         </>
     )
 }

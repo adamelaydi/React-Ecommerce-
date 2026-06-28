@@ -1,7 +1,7 @@
 // Components
 import TopHeader from "../components/headers/TopHeader"
 import BottomHeader from "../components/headers/BottomHeader"
-import Swiper from "../components/home/Swiper"
+import Sw
 // Styling
 import "../../style/pages/Home.css"
 export function Home(){
@@ -11,9 +11,6 @@ export function Home(){
             <TopHeader />
             <BottomHeader />
         </header>
-        <main>
-            <Swiper />
-        </main>
         </>
     )
 }
