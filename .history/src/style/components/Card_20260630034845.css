@@ -1,0 +1,63 @@
+.card{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: transform 0.9s ease;
+    border: 2px solid transparent;
+}
+.card:hover{
+    border: 2px solid var(--sBackground);
+}
+.card:hover img{
+    transform: scale(1.3);
+}
+.card .image{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.card>.Card-info {
+
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left:10px ;
+    
+}
+.card>.Card-info h5{
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 8px 0;
+}
+.card>.Card-info .discribtion{
+    font-size: 15px;
+    color: #777;
+}
+.card>.Card-info .price{
+    font-size: 30px;
+    font-weight: 700;
+}
+.card>.Card-info .Card-btns{
+
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.card>.Card-info .Card-btns button{
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    color: #777;
+    transition:0.9s ease;
+}
+.card>.Card-info .Card-btns button:hover{
+    font-size: 27px;
+}

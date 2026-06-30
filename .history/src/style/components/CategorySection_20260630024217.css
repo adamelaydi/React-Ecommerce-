@@ -1,0 +1,36 @@
+    .category{
+        background-color: blueviolet;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .category .category-container{
+        width: 900px;
+        background-color: burlywood;
+        height:500px;
+    }
+    .category .category-container .info{
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 15px;
+    }
+    .category .category-container .info h4{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .category .category-container .mySwiper {
+        height: 400px;
+        background-color: crimson;
+        width: 100%;
+    }
+
+    .category .category-container .product-Swiper .swiper-slide {
+    font-size: 18px;
+    background: #444;
+    height: 350px;
+    border-radius: 25px;
+    
+    }

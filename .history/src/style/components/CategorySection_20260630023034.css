@@ -1,0 +1,26 @@
+    .category{
+        background-color: blueviolet;
+        height: 500px;
+    }
+    .category .container{
+        width: 900px;
+    }
+    .mySwiper {
+        height: 400px;
+        background-color: crimson;
+    background-color: aqua;
+    }
+
+    .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    height: 400px;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+  

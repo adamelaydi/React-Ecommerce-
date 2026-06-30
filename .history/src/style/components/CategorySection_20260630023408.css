@@ -1,0 +1,18 @@
+    .category{
+        background-color: blueviolet;
+        height: 500px;
+    }
+    .category .container{
+        width: 900px;
+    }
+    .category .container .mySwiper {
+        height: 400px;
+        background-color: crimson;
+    }
+
+    .category .container . .swiper-slide {
+    font-size: 18px;
+    background: #444;
+    height: 400px;
+    width: 200px;
+    }

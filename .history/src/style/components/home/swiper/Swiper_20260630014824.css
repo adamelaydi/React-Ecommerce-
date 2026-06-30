@@ -1,0 +1,70 @@
+    .swiper{
+        background-color: aquamarine;
+        height: 450px;
+        width: 100%;
+    }
+    .swiper .container{
+        background-color: blue;
+        height: 450px;
+        width: 700px;
+        margin: auto;
+    }
+    .mySwiper{
+    width: 100%;;
+    height: 400px;
+    background: #1f9d32;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-radius: 25px;
+    }
+
+    .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #6e6161;
+    width: 200px;
+    height: 300px;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .swiper-slide .card{
+        position: relative;
+        background-color: chartreuse;
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide .card img{
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide .card .content{
+        z-index: 1000;
+        position: absolute;
+        top: 90px;
+        color: white;
+        text-transform: capitalize;
+        background-color: #1f9d32;
+        width: 50%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .swiper-slide .card .content h3{
+        font-size:40px;
+
+    }
+    .swiper-slide .card .content .btn{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: black;
+        background-color: var(--sBackground);
+        width: fit-content;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
